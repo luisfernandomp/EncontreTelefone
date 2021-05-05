@@ -1,0 +1,16 @@
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.AssemblyInfo.cs
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.exe
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.deps.json
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.runtimeconfig.json
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.runtimeconfig.dev.json
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.dll
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\ref\escrevendoCelular.dll
+C:\Users\fic\Desktop\escrevendoCelular\bin\Debug\net5.0\escrevendoCelular.pdb
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.dll
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\ref\escrevendoCelular.dll
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.pdb
+C:\Users\fic\Desktop\escrevendoCelular\obj\Debug\net5.0\escrevendoCelular.genruntimeconfig.cache
