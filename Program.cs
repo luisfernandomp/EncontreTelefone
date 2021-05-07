@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading;
+
 
 namespace escrevendoCelular
 {
@@ -6,21 +8,16 @@ namespace escrevendoCelular
     {
         static void Main(string[] args)
         {
-            // Letras  ->  Número 
-            // ABC    ->  2 
-            // DEF    ->  3 
-            // GHI    ->  4 
-            // JKL    ->  5 
-            // MNO    ->  6 
-            // PQRS    ->  7 
-            // TUV    ->  8 
-            // WXYZ   ->  9 
-            // Espaço -> 0 
-            // letras iguais _
-
+            /*
+            FEITO POR LUIS FERNANDO DE MESQUITA PEREIRA
+            DESAFIO DOJO
+            */
+            Console.Clear();
             string frase = "", fraseTraduzida = null;
-
+            Console.WriteLine("=== ESCREVA A FRASE SEM CARACTERES ESPECIAIS OU ACENTOS, COM NO MÁXIMO 255 CARACTERES : ");
             frase = Console.ReadLine().ToUpper();
+            Console.WriteLine("traduzindo...");
+            Thread.Sleep(2000);
             if(frase.Length > 255){
                 Console.WriteLine("Máximo de 255 caracteres");
             }else{
@@ -64,33 +61,22 @@ namespace escrevendoCelular
                             default: Console.WriteLine("Letra não identificada : " + palavra[i]); break;
                         }
                         int j = 0;
-                        if(i == palavra.Length - 1){
-                            j = i;
-                        }else{
+                        if(i != palavra.Length - 1){
                             j = i +1;
-                        }
-                        if(palavra[i].ToString() == palavra[j].ToString()){
+                            if(palavra[i].ToString() == palavra[j].ToString()){
                             fraseTraduzida = fraseTraduzida + string.Concat("_");
+                            }
                         }
-                        
                     }
-                    // fraseTraduzida = fraseTraduzida.Substring(palavra.Length);
-                    // Console.WriteLine("TESTE :"+ fraseTraduzida);
-
-                     string bio = "Mahesh Chand is a founder of C# Corner. Mahesh is also an author, " +    
-                        "speaker, and software architect. Mahesh founded C# Corner in 2000.";    
-                
-                    // Get first 12 characters substring from a string    
-                    string authorName = bio.Substring(12);    
-                    Console.WriteLine(authorName);    
+                    Console.WriteLine("Frase traduzida:  "+ fraseTraduzida); 
                 }else{
+                    int cont = 0;
                     foreach (var item in palavras)
                     {
                     palavra = item.ToString();
                     //Transformar palavra em números                                                                      
-                    for(int i = 0; i >= palavra.Length; i++){
-                        Console.Write("@");
-                        switch (palavra[i])
+                    for(int i = 0; i < palavra.Length; i++){
+                         switch (palavra[i])
                         {
                             case 'A' : fraseTraduzida = fraseTraduzida + string.Concat("2"); break;
                             case 'B' : fraseTraduzida = fraseTraduzida + string.Concat("22"); break;
@@ -120,14 +106,25 @@ namespace escrevendoCelular
                             case 'Z' : fraseTraduzida = fraseTraduzida + string.Concat("99999"); break;
                             default: Console.WriteLine("Letra não identificada : " + palavra[i]); break;
                         }
+                        int j = 0;
+                        if(i != palavra.Length - 1){
+                            j = i +1;
+                            if(palavra[i].ToString() == palavra[j].ToString()){
+                            fraseTraduzida = fraseTraduzida + string.Concat("_");
+                            }
+                        }
+                        
+                    }
+                    cont = cont + 1;
+                    if( cont != palavras.Length){
+                        fraseTraduzida = fraseTraduzida + string.Concat("0");
                     }
                 }
+                Console.WriteLine("Frase traduzida:  "+ fraseTraduzida); 
                 
-                
-                }
-                Console.WriteLine(fraseTraduzida);
             }
 
+            }
         }
     }
 }

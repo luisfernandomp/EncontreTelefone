@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Desktop\\escrevendoCelular\\escrevendoCelular.csproj": {}
+    "C:\\Users\\HOME\\Desktop\\EscrevendoCelular\\escrevendoCelular.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Desktop\\escrevendoCelular\\escrevendoCelular.csproj": {
+    "C:\\Users\\HOME\\Desktop\\EscrevendoCelular\\escrevendoCelular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Desktop\\escrevendoCelular\\escrevendoCelular.csproj",
+        "projectUniqueName": "C:\\Users\\HOME\\Desktop\\EscrevendoCelular\\escrevendoCelular.csproj",
         "projectName": "escrevendoCelular",
-        "projectPath": "C:\\Users\\fic\\Desktop\\escrevendoCelular\\escrevendoCelular.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Desktop\\escrevendoCelular\\obj\\",
+        "projectPath": "C:\\Users\\HOME\\Desktop\\EscrevendoCelular\\escrevendoCelular.csproj",
+        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HOME\\Desktop\\EscrevendoCelular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
